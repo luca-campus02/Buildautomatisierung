@@ -22,6 +22,6 @@ class BMICalculatorTest {
 
     @org.junit.jupiter.api.Test
     void result() {
-
+        Assertions.assertEquals("obese",bmiCalculator.result());
     }
 }
